@@ -82,7 +82,7 @@ class Word():
                         pass_data.append(data)
                         word_data.remove(i)
                 else:
-                    print('=====')
+                    pass
         self.db.update(table,pass_data)
         print('恭喜你！！背诵完成！！！')
 
